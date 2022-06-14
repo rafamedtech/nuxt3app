@@ -135,6 +135,16 @@ Create the directory **assets/css** and create a new file named `main.css`
 
 <!-- screenshot -->
 
+Add the `@tailwind` directives to the `main.css` file:
+
+```css
+/* assets/css/main.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 Include the new directory in your `nuxt.config.ts` file:
 
 ```javascript
